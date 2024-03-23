@@ -518,7 +518,7 @@ main {
 
 .service-item {
   position: relative;
-  background: var(--border-gradient-onyx);
+  background: gold;
   padding: 20px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
@@ -529,7 +529,7 @@ main {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--bg-gradient-jet);
+  background: var(--marian_blue);
   border-radius: inherit;
   z-index: -1;
 }
@@ -538,12 +538,14 @@ main {
 
 .service-icon-box img { margin: auto; }
 
-.service-content-box { text-align: center; }
+.service-content-box { text-align: center;}
 
-.service-item-title { margin-bottom: 7px; }
+.service-item-title { 
+  margin-bottom: 7px; 
+  color: bisque;}
 
 .service-item-text {
-  color: var(--light-gray);
+  color: white;
   font-size: var(--fs-6);
   font-weight: var(--fw-3);
   line-height: 1.6;
