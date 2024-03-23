@@ -148,7 +148,7 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: navy; }
+body { background: var(--marian_blue); }
 
 
 
@@ -339,7 +339,8 @@ main {
 
 .info-content .title {
   color: var(--white-1);
-  background: var(--onyx);
+  background: var(--glaucous);
+  border: black;
   font-size: var(--fs-8);
   font-weight: var(--fw-300);
   width: max-content;
@@ -452,7 +453,7 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: hsla(240, 1%, 17%, 0.75);
+  background: var(--savoy_blue);
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
   border-radius: 12px 12px 0 0;
