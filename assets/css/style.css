@@ -56,18 +56,11 @@
 
   /* solid */
 
-  --jet: hsl(0, 0%, 22%);
-  --onyx: hsl(240, 1%, 17%);
-  --eerie-black-1: hsl(240, 2%, 13%);
-  --eerie-black-2: hsl(240, 2%, 12%);
-  --smoky-black: hsl(0, 0%, 7%);
-  --white-1: hsl(0, 0%, 100%);
-  --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(45, 100%, 72%);
-  --vegas-gold: hsl(45, 54%, 58%);
-  --light-gray: hsl(0, 0%, 84%);
-  --light-gray-70: hsla(0, 0%, 84%, 0.7);
-  --bittersweet-shimmer: hsl(0, 43%, 51%);
+  --periwinkle: #AAACD4;
+  --glaucous: #7079AB;
+  --savoy_blue: #576DB7;
+  --marian_blue: #2C3F7D;
+  --federal_blue: #020C61;
 
   /**
    * typography
@@ -155,7 +148,7 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var(--smoky-black); }
+body { background: navy; }
 
 
 
@@ -167,8 +160,8 @@ body { background: var(--smoky-black); }
 
 .sidebar,
 article {
-  background: var(--eerie-black-2);
-  border: 1px solid var(--jet);
+  background: slategrey;
+  border: 2px solid bisque;
   border-radius: 20px;
   padding: 15px;
   box-shadow: var(--shadow-1);
@@ -201,7 +194,7 @@ article {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--eerie-black-1);
+  background: bisque;
   border-radius: inherit;
   z-index: -1;
 }
