@@ -161,7 +161,7 @@ body { background: var(--marian_blue); }
 .sidebar,
 article {
   background: slategrey;
-  border: 2px solid bisque;
+  border: 2px solid silver;
   border-radius: 20px;
   padding: 15px;
   box-shadow: var(--shadow-1);
@@ -518,7 +518,7 @@ main {
 
 .service-item {
   position: relative;
-  background: gold;
+  background: silver;
   padding: 20px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
@@ -529,7 +529,7 @@ main {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--marian_blue);
+  background: var(--glaucous);
   border-radius: inherit;
   z-index: -1;
 }
@@ -542,10 +542,10 @@ main {
 
 .service-item-title { 
   margin-bottom: 7px; 
-  color: bisque;}
+  color: var(--federal_blue);}
 
 .service-item-text {
-  color: white;
+  color: black;
   font-size: var(--fs-6);
   font-weight: var(--fw-3);
   line-height: 1.6;

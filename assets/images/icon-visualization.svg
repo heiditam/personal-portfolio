@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="200" height="150">
+  <!-- X-axis -->
+  <line x1="20" y1="120" x2="180" y2="120" stroke="orange" stroke-width="5" />
+  <!-- Y-axis -->
+  <line x1="20" y1="20" x2="20" y2="120" stroke="orange" stroke-width="5" />
+  <!-- Data bars -->
+  <rect x="40" y="80" width="40" height="40" fill="bisque" />
+  <rect x="80" y="60" width="40" height="60" fill="bisque" />
+  <rect x="120" y="40" width="40" height="80" fill="bisque" />
+</svg>
